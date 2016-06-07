@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: page
 title: Installation
 description: Installing Nestor
 ---
-
-<h1 class="ui header">Installation</h1>
 
 ## Requirements
 

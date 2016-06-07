@@ -1,10 +1,7 @@
 ---
-layout: default
-title: Installation
-description: Installing Nestor
+layout: page
+title: API Installation
 ---
-
-<h1 class="ui header">API Installation</h1>
 
 We use [Dingo API](https://github.com/dingo/api/) for our API. The following is an example configuration for
 the [dotEnv](https://github.com/vlucas/phpdotenv) file.

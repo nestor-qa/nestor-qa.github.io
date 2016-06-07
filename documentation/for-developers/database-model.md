@@ -1,8 +1,6 @@
 ---
-layout: default
-title: Developers Guide
-description: Developers Guide
-showinnav: true
+layout: page
+title: Database Model
 ---
 
 This document lists topics useful for developers intestered in _building_, 
