@@ -1,52 +1,101 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Fixed top for Semantic-UI</title>
+    <meta name="description" content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Nestor-qa.github.io : Nestor QA" />
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/css/semantic.min.css">
+    <!-- endbower -->
+    <!-- endbuild -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- endbuild -->
+</head>
+<body>
 
-    <title>Nestor-qa</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/nestor-qa">View on GitHub</a>
-
-          <h1 id="project_title">Nestor-QA</h1>
-          <h2 id="project_tagline">Nestor QA Test management</h2>
-
-        </header>
+    <div class="ui grid">
+        <div class="computer tablet only row">
+            <div class="ui inverted fixed menu navbar page grid">
+                <a href="" class="brand item">Project Name</a>
+                <a href="" class="active item">Home</a>
+                <a href="" class="item">About</a>
+                <a href="" class="item">Contact</a>
+                <a class="ui dropdown item">Dropdown
+                  <i class="dropdown icon"></i>
+                  <div class="menu">
+                    <div class="item">Action</div>
+                    <div class="item">Another action</div>
+                    <div class="item">Something else here</div>
+                    <div class="ui divider"></div>
+                    <div class="item">Seperated link</div>
+                    <div class="item">One more seperated link</div>
+                  </div>
+                </a>
+                <div class="right menu">
+                    <a href="" class="active item">Default</a>
+                    <a href="" class="item">Static top</a>
+                    <a href="" class="item">Fixed top</a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile only row">
+            <div class="ui fixed inverted navbar menu">
+                <a href="" class="brand item">Project Name</a>
+                <div class="right menu open">
+                    <a href="" class="menu item">
+                        <i class="reorder icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ui vertical navbar menu">
+                <a href="" class="active item">Home</a>
+                <a href="" class="item">About</a>
+                <a href="" class="item">Contact</a>
+                <div class="ui item">
+                    <div class="text">Dropdown</div>
+                    <div class="menu">
+                        <a class="item">Action</a>
+                        <a class="item">Another action</a>
+                        <a class="item">Something else here</a>
+                        <a class="ui aider"></a>
+                        <a class="item">Seperated link</a>
+                        <a class="item">One more seperated link</a>
+                      </div>
+                </div>
+                <div class="menu">
+                    <a href="" class="active item">Default</a>
+                    <a href="" class="item">Static top</a>
+                    <a href="" class="item">Fixed top</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui page grid main">
+        <div class="row">
+            <div class="column padding-reset">
+                <div class="ui large message">
+                    <h1 class="ui huge header">Navbar example</h1>
+                    <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+                    <p>To see the difference between static and fixed top navbars, just scroll.</p>
+                    <a href="" class="ui blue button">View navbar docs &raquo;</a>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to Nestor-QA.</h3>
-
-<h3>Authors and Contributors</h3>
-@kinow
-@tooh
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/javascript/semantic.min.js"></script>
+    <script src="main.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+</body>
 </html>
