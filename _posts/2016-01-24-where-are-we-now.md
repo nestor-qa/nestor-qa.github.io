@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Where are we now?
 description: Project status and announcements
 category: blog

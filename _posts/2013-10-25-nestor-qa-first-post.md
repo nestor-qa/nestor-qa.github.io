@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Nestor QA first post
 description: Our first post using Jekyll.
 category: blog

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: RequireJS, Backbone.js, JWT and much more
 description: RequireJS, Backbone.js, JWT and much more blog post
 category: blog
