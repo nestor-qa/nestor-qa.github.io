@@ -25,3 +25,15 @@ specification page.
 The ViewProjectView handles that a bit differently. It basically sets the new projectId
 in the sub models, collections and views. And then re-renders the page, finally triggering
 the method to display the root node of the tree (i.e. the project).
+
+### Event: nestor:navigationtree_changed
+
+#### When it is triggered
+
+Triggered when a node changes in the navigation tree.
+
+#### Who is affected
+
+When, for instance, a new test suite is saved, the NewTestSuiteView.js will trigger
+this event. Then the ViewProjectView.js will know that it needs to update its current
+navigation tree.
