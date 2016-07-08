@@ -20,7 +20,7 @@ Triggered when a new project is positioned in the header. The ProjectsCollection
 an HTTP request to the back end. Once it is done and successful, the collection triggers
 this event.
 
-### Who is affected
+#### Who is affected
 
 In router.js, there is a global hook. Whenever the event is triggered, and if the
 current view is not the view projects view, then the user is redirected to the
