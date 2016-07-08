@@ -8,11 +8,11 @@ simplicity.
 
 ## List of events
 
-### nestor:navigationtree:project_changed
+### Event: nestor:navigationtree:project_changed
 
-### nestor:navigationtree_changed
+### Event: nestor:navigationtree_changed
 
-### project:position
+### Event: project:position
 
 #### When it is triggered
 
