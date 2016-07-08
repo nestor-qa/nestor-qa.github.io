@@ -8,10 +8,6 @@ simplicity.
 
 ## List of events
 
-### Event: nestor:navigationtree:project_changed
-
-### Event: nestor:navigationtree_changed
-
 ### Event: project:position
 
 #### When it is triggered
@@ -26,4 +22,6 @@ In router.js, there is a global hook. Whenever the event is triggered, and if th
 current view is not the view projects view, then the user is redirected to the
 specification page.
 
-
+The ViewProjectView handles that a bit differently. It basically sets the new projectId
+in the sub models, collections and views. And then re-renders the page, finally triggering
+the method to display the root node of the tree (i.e. the project).
